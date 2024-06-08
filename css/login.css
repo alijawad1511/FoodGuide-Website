@@ -1,0 +1,58 @@
+body {
+  background-image: url("../images/bg5.jpg");
+  background-size: cover;
+}
+
+form {
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.678);
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+form .form-control {
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.08);
+  height: 45px;
+  color: white;
+  font-weight: bold;
+}
+
+form .form-control::placeholder {
+  color: white;
+}
+
+form .form-control:focus {
+  border: 1px solid white;
+  background-color: rgba(0, 0, 0, 0.096);
+}
+
+form .form-control:hover {
+  border: 1px solid white;
+  background-color: rgba(0, 0, 0, 0.096);
+}
+
+form .btn {
+  border-radius: 50px;
+}
+
+form a {
+  color: rgb(196, 3, 3);
+  font-weight: bold;
+}
+
+form a:hover {
+  color: rgb(114, 2, 2);
+}
+
+form h3 {
+  font-weight: 600;
+}
+
+form h3 span {
+  font-weight: 900;
+  color: red;
+}

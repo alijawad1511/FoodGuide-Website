@@ -1,0 +1,72 @@
+body{
+    background-image: url('../images/wp2596964.jpg');
+    background-size: cover;
+}
+
+:root{
+    --primary-color: rgb(226, 39, 70);
+    --section-bg-color: rgb(226, 222, 222);
+    --secondary-color: #343a40;
+    --tertiary-color: #6c757d;
+}
+
+/* Header */
+.navbar-brand{
+    font-weight: 600;    
+}
+
+.navbar-brand span{
+    color: rgb(226, 39, 70);
+    font-weight: 800;
+}
+
+.navbar .btn{
+    border-radius: 50px;
+}
+
+form{
+    width: 400px;
+    padding: 40px 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form .form-control{
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.08);
+    color: white;
+    font-weight: bold;
+}
+
+form .form-control::placeholder {
+    color: white;
+}
+
+form .form-control:focus {
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.096);
+}
+
+form .form-control:hover {
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.096);
+}
+
+
+form a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form a:hover{
+    text-decoration: none;
+    color: rgb(165, 0, 0);
+}
+/* #F04646 */

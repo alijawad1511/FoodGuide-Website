@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- Fontawsome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+      integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/index.css" />
+
+    <title>FoodGuide - Home Page</title>
+  </head>
+
+  <body>
+    <!-- Top Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Food<span>Guide.</span></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cities">Cities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle disabled"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Area
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Punjab</a>
+              <a class="dropdown-item" href="#">Sindh</a>
+              <a class="dropdown-item" href="#">KPK</a>
+              <a class="dropdown-item" href="#">Balochistan</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Blogs</a>
+          </li>
+        </ul>
+        <a href="login.html" class="btn btn-secondary btn-rounded mx-3 px-4"
+          >Login</a
+        >
+        <a href="signup.html" class="btn btn-success btn-rounded px-4"
+          >Register</a
+        >
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+      <h1 class="text-white">
+        Explore <span id="pakistan">Pakistan's</span> Best
+        <span class="color-primary">Food</span> Points
+      </h1>
+    </header>
+    <form action="/city">
+      <div
+        class="form-group city_selector py-5 d-flex justify-content-center align-items-center"
+      >
+        <select class="form-control d-inline-block mr-2">
+          <option>--Select City--</option>
+          <option value="Lahore">Lahore</option>
+          <option>Multan</option>
+          <option>Islamabad</option>
+          <option>Karachi</option>
+        </select>
+        <button type="submit" class="btn btn-danger px-4 btn-rounded">
+          Search
+        </button>
+      </div>
+    </form>
+
+    <!-- Cities Section -->
+    <section id="cities" class="cities_section p-3">
+      <h3 class="section_title text-center my-5">
+        <span class="color-primary">E</span>xplore
+        <span class="color-primary">C</span>ities
+      </h3>
+      <div class="container">
+        <div class="card mr-md-3 mb-3 m-3">
+          <img
+            class="card-img-top"
+            src="images/lahore.jpg"
+            alt="Card image Cap"
+          />
+          <h4 class="text-dark">Lahore</h4>
+          <a href="" class="btn btn-success">Explore</a>
+        </div>
+        <div class="card mr-md-3 mb-3 m-3">
+          <img
+            class="card-img-top"
+            src="images/islamabad.jpg"
+            alt="Card image Cap"
+          />
+          <h4 class="text-dark">Islamabad</h4>
+          <a href="" class="btn btn-success">Explore</a>
+        </div>
+        <div class="card mr-md-3 mb-3 m-3">
+          <img
+            class="card-img-top"
+            src="images/multan.jpg"
+            alt="Card image Cap"
+          />
+          <h4 class="text-dark">Multan</h4>
+          <a href="" class="btn btn-success">Explore</a>
+        </div>
+        <div class="card mr-md-3 mb-3 m-3">
+          <img
+            class="card-img-top"
+            src="images/karachi.jpg"
+            alt="Card image Cap"
+          />
+          <h4 class="text-dark">Karachi</h4>
+          <a href="" class="btn btn-success">Explore</a>
+        </div>
+        <div class="card mr-md-3 mb-3 m-3">
+          <img
+            class="card-img-top"
+            src="images/faisalabad.png"
+            alt="Card image Cap"
+          />
+          <h4 class="text-dark">Faisalabad</h4>
+          <a href="" class="btn btn-success">Explore</a>
+        </div>
+        <div class="card mr-md-3 mb-3 m-3">
+          <img
+            class="card-img-top"
+            src="images/peshawar.jpg"
+            alt="Card image Cap"
+          />
+          <h4 class="text-dark">Peshawar</h4>
+          <a href="" class="btn btn-success">Explore</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="contact_section p-3" id="contact">
+      <div class="text-center py-3">
+        <h3 class="section_title">
+          <span class="color-primary">C</span>ontact
+          <span class="color-primary">U</span>s
+        </h3>
+        <p class="description">Get in touch and let us know how we can help</p>
+      </div>
+      <div class="container">
+        <form action="/contact" class="w-75 m-auto">
+          <div class="form-group">
+            <label>Name</label>
+            <input
+              type="text"
+              name="name"
+              class="form-control"
+              placeholder=""
+              autocomplete="off"
+            />
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input
+              type="email"
+              name="email"
+              class="form-control"
+              placeholder=""
+            />
+          </div>
+          <div class="form-group">
+            <label>Subject</label>
+            <input
+              type="text"
+              name="subject"
+              class="form-control"
+              placeholder=""
+              autocomplete="off"
+            />
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea class="form-control" name="message" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-success btn-rounded px-4">
+            Submit
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Social Links -->
+    <div class="text-white bg-dark p-5">
+      <div class="row justify-content-center">
+        <a
+          href="#"
+          class="social_link btn btn-secondary mr-2 d-flex justify-content-center align-items-center text-white"
+        >
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a
+          href="#"
+          class="social_link btn btn-secondary mr-2 d-flex justify-content-center align-items-center text-white"
+        >
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a
+          href="#"
+          class="social_link btn btn-secondary mr-2 d-flex justify-content-center align-items-center text-white"
+        >
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a
+          href="#"
+          class="social_link btn btn-secondary mr-2 d-flex justify-content-center align-items-center text-white"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="text-white text-center bg-secondary py-3">
+      Copyright &copy; 2021. All Rights Reserved. YourGuide.
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

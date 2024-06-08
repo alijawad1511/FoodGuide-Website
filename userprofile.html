@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- Fontawsome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+      integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/userprofile.css" />
+
+    <title>YourGuide - Home Page</title>
+  </head>
+
+  <body>
+    <!-- Top Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Your<span>Guide.</span></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cities">Cities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle disabled"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Area
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Punjab</a>
+              <a class="dropdown-item" href="#">Sindh</a>
+              <a class="dropdown-item" href="#">KPK</a>
+              <a class="dropdown-item" href="#">Balochistan</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Blogs</a>
+          </li>
+        </ul>
+        <a href="#" class="btn btn-secondary mx-3 px-4">Login</a>
+        <a href="signup.html" class="btn btn-success px-4">Register</a>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+      <img src="images/profile-bg.jpg" alt="" />
+    </header>
+    <div class="container">
+      <div class="card profile_card border-0 mb-2">
+        <div class="card-body">
+          <img src="images/user.png" class="card-img-top" alt="..." />
+          <h3 class="card-title mt-3">Jawad Shah</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card px-3">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore
+            assumenda fugit excepturi dolor temporibus animi, ex ad
+            exercitationem repudiandae dolore dolorum vero voluptate explicabo,
+            maiores harum, commodi earum. Maxime expedita laboriosam id libero
+            eaque, quis earum! Illo, quia? Excepturi consequatur vero temporibus
+            reiciendis ullam quaerat alias tenetur maxime dolorum omnis.
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="status_box mx-auto">
+            <div class="status">
+              <img src="images/user1.jpg" alt="User" />
+              <input
+                type="text"
+                disabled
+                placeholder="What's on your mind, Jawad?"
+              />
+              <button class="btn btn-success ml-2">Upload Post</button>
+            </div>
+          </div>
+          <div class="post">
+            <div class="post_header">
+              <div class="user_profile_container">
+                <img src="images/user1.jpg" alt="User" />
+                <div class="post_detail">
+                  <div class="user_name">Jawad Shah</div>
+                  <div class="post_date">October 8 at 12:31 PM</div>
+                </div>
+              </div>
+              <div class="menu_icon">
+                <i class="fas fa-ellipsis-h"></i>
+              </div>
+            </div>
+            <div class="post_text px-3 mb-2">
+              Clean and Hygienic Environment and Best Food Quality.
+            </div>
+            <div class="post_image_box">
+              <img src="images/login-bg4.jpg" alt="" />
+            </div>
+            <div class="post_footer">
+              <div class="post_reaction_box">
+                <div class="likes">
+                  <i class="fas fa-thumbs-up" style="color: #0675e8"></i>
+                  <i
+                    class="fas fa-surprise"
+                    style="color: rgb(194, 197, 7)"
+                  ></i>
+                  <i class="fas fa-heart" style="color: red"></i>
+                  <span id="likeCount">56</span>
+                </div>
+
+                <div class="comments">22 Comments</div>
+              </div>
+
+              <hr style="margin: 0 16px; border: 1px solid rgb(233 223 223)" />
+
+              <div class="action_box">
+                <ul class="action_menu">
+                  <li class="like_btn" onclick="likePost()">
+                    <i class="far fa-thumbs-up"></i>
+                    <div>Like</div>
+                  </li>
+                  <li class="comment_btn" onclick="commentPost()">
+                    <i class="far fa-comment-alt"></i>
+                    <div>Comment</div>
+                  </li>
+                  <li class="share_btn" onclick="sharePost()">
+                    <i class="fas fa-share"></i>
+                    <div>Share</div>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- <hr style="margin: 0 16px; border: 1px solid rgb(199 197 197);"> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card px-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+            eius quia ad, ipsum aliquid rem enim dolore molestiae reprehenderit
+            ab ipsam odio aperiam nemo saepe ex quae laboriosam? Autem,
+            similique veritatis, cupiditate nisi mollitia libero molestias eius
+            ut fugit assumenda debitis ratione quaerat laudantium dicta? Nobis
+            at similique tempora esse.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Social Links -->
+    <div class="text-white bg-dark p-5">
+      <div class="row justify-content-center">
+        <a
+          href="#"
+          class="social_link btn btn-secondary mr-2 d-flex justify-content-center align-items-center text-white"
+        >
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a
+          href="#"
+          class="social_link btn btn-secondary mr-2 d-flex justify-content-center align-items-center text-white"
+        >
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a
+          href="#"
+          class="social_link btn btn-secondary mr-2 d-flex justify-content-center align-items-center text-white"
+        >
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a
+          href="#"
+          class="social_link btn btn-secondary mr-2 d-flex justify-content-center align-items-center text-white"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="text-white text-center bg-secondary py-3">
+      Copyright &copy; 2021. All Rights Reserved. YourGuide.
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
