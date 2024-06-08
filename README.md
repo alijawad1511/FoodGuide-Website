@@ -4,12 +4,8 @@ A website for tourists to explore Pakistan's best food points, built using HTML,
 
 ## Screenshots
 
-<img src="https://github.com/alijawad1511/Facebook_Home_Page/blob/main/images/Full_Page_Design.jpg" width="700" />
+<img src="https://github.com/alijawad1511/FoodGuide-Website/blob/master/screenshots/screenshot1.jpg" width="700" />
 
-<img src="https://github.com/alijawad1511/Facebook_Home_Page/blob/main/images/Full_Page_Design.jpg" width="700" />
+<img src="https://github.com/alijawad1511/FoodGuide-Website/blob/master/screenshots/screenshot2.jpg" width="700" />
 
-<img src="https://github.com/alijawad1511/Facebook_Home_Page/blob/main/images/Full_Page_Design.jpg" width="700" />
-
-## Link
-
-[See Preview](https://alijawad1511.github.io/Facebook-Home-Page/)
+<img src="https://github.com/alijawad1511/FoodGuide-Website/blob/master/screenshots/screenshot3.jpg" width="700" />
